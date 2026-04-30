@@ -73,7 +73,7 @@ uv run python ima_mcp_server.py
     "ima-mcp": {
       "type": "stdio",
       "command": "uv",
-      "args": ["--directory", "C:/Users/heda/Downloads/ima-skill/ima-mcp", "run", "python", "ima_mcp_server.py"]
+      "args": ["--directory", "C:/yourpath/ima-mcp", "run", "python", "ima_mcp_server.py"]
     }
   }
 }
