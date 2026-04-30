@@ -35,7 +35,7 @@ if result.get("code") == 0:
 
 # Test: search_knowledge
 print("\n=== search_knowledge ===")
-result = client.post("knowledge/search_knowledge", {"keyword": "test", "limit": 5})
+result = client.post("knowledge/search_knowledge", {"keyword": "streamlit", "limit": 5})
 print(f"  code={result.get('code')}, msg={result.get('msg', '')[:50]}")
 if result.get("code") == 0:
     print(f"  SUCCESS!")

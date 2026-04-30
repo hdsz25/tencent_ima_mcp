@@ -11,7 +11,7 @@ class AuthManager:
 
     def refresh(self) -> bool:
         """Manually trigger token refresh."""
-        return self.client._refresh_token()
+        return self.client._try_refresh_token()
 
     def is_authenticated(self) -> bool:
         """Check if we have valid credentials loaded."""
