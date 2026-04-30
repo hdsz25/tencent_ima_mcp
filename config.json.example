@@ -1,0 +1,5 @@
+{
+  "user_id": "YOUR_USER_ID",
+  "token": "YOUR_ACCESS_TOKEN",
+  "refresh_token": "YOUR_REFRESH_TOKEN"
+}
